@@ -6,6 +6,3 @@ def prime_list(n):
             for j in range(i + i, n, i):
                 sieve[j] = False
     return [i for i in range(2, n) if sieve[i]]
-
-
-print(prime_list(100))
